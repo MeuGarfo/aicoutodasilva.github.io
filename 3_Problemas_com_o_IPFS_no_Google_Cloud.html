@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title> Problemas com o IPFS no Google Cloud</title>
+    <link rel="stylesheet" href="css/master.css">
+    <meta name="viewport" content="width=device-width; user-scalable=0" />
+    <link rel="shortcut icon" href="img/eu.jpg" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <h1>Anderson Ismael</h1>
+        <h2> Problemas com o IPFS no Google Cloud</h2>
+        <p>Tue 08 Jan 2019 09:52:34 PM -02</p>
+<p>Hoje testei o IPFS em um VPS rodando no Google Cloud. Tive problemas com as portas já que o IPFS usa uma para o servidor (gateway) e outra para conectar ao pool (swarm).</p>
+<p>Para liberar o gateway desliguei o Apache e apontei a porta padrão 8080 do IPFS para a 80 do VPS.</p>
+<p>O gateway funcionou como esperado, porém me esqueci de testar a porta do swarm e assim não pude acessar o pool.</p>
+<p>Imagino que o pool também funcione normalmente em outra porta como a 443 que é liberada pelo firewall do Google.</p>
+<p>Quando tiver tempo vou testar o pool em outra porta para ver se é possível rodar o IPFS plenamente no Google Cloud.</p>
+        <p>
+            <a href="index.html">Home</a>
+        </p>
+    </div>
+</body>
+</html>

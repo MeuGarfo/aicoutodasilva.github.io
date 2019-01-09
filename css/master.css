@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+    line-height:1.25em;
+}
+a{
+    color:blue;
+}
+a:hover{
+    color:red;
+}
+body{
+    color: #333;
+    font-size: 1.25em;
+    font-weight: 400;
+}
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+.container li{
+    line-height: 1.5em;
+}
+h1,h2,h3,h4,h5{
+    font-weight: lighter;
+    margin: 0;
+}
+h2,h3,h4,h5{
+    color:gray;
+}
