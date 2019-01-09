@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ROOT com um nível acima</title>
+    <link rel="stylesheet" href="css/master.css?v3">
+    <meta name="viewport" content="width=device-width; user-scalable=0" />
+    <link rel="shortcut icon" href="img/eu.jpg" type="image/x-icon" />
+</head>
+<body>
+    <div class="container">
+        <h1>Anderson Ismael</h1>
+        <h2>ROOT com um nível acima</h2>
+        <p>Wed 09 Jan 2019 05:36:48 PM -02 </p>
+<p>As vezes é necessário acessar arquivos que estão em um diretório um nível acima.</p>
+<p>O mais comum nesses casos é definir uma constante ROOT como seguinte código:</p>
+<pre><code>&lt;?php
+$str=__DIR__;
+$arr=explode('/',$str);
+end($arr);
+$key=key($arr);
+unset($arr[$key]);
+$str=implode('/',$arr).'/';
+define("ROOT",$str);
+</code></pre>
+        <p>
+            <a href="index.html">Home</a>
+        </p>
+    </div>
+</body>
+</html>
