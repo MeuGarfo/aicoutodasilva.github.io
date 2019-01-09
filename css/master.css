@@ -21,12 +21,10 @@ body{
 .container li{
     line-height: 1.5em;
 }
-h1{
-    text-align: center;
-}
 h1,h2,h3,h4,h5{
     font-weight: lighter;
     margin: 0;
+    text-align: center;
 }
 h2,h3,h4,h5{
     color:gray;
