@@ -13,6 +13,9 @@ body{
     font-size: 1.25em;
     font-weight: 400;
 }
+.center{
+    text-align:center;
+}
 code{
     font-family:"Courier New",Courier,monospace;
 }
