@@ -18,6 +18,8 @@ body{
 }
 code{
     font-family:"Courier New",Courier,monospace;
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    word-break: break-all;       /* Internet Explorer 5.0+ */
 }
 .container{
     margin: 0 auto;
